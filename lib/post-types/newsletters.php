@@ -33,7 +33,7 @@ function hpna_newsletters() {
 	$args = array(
 		'labels'             => $labels,
 		'description'        => __( 'Newsletters custom post type.' ),
-		'public'             => true,
+		'public'             => false,
 		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
@@ -45,7 +45,7 @@ function hpna_newsletters() {
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-welcome-widgets-menus',
 		'show_in_rest'       => true,
-		'supports'           => array( 'title', 'revisions', 'thumbnail', 'excerpt', 'editor' ),
+		'supports'           => array( 'title', 'revisions', 'excerpt', 'editor' ),
 	);
 	
 	register_post_type( 'hpna-newsletters', $args );
