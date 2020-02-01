@@ -39,11 +39,11 @@ function hpna_events() {
 		'show_in_menu'       => true,
 		'query_var'          => true,
 		'capability_type'    => 'post',
-//		'rewrite'            => array( 'slug' => 'resources/customers', 'with_front' => false ),
+		'rewrite'            => array( 'slug' => 'events', 'with_front' => false ),
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => 20,
-		'menu_icon'          => 'dashicons-id-alt',
+		'menu_icon'          => 'dashicons-calendar-alt',
 		'show_in_rest'       => true,
 		'supports'           => array( 'title', 'revisions', 'thumbnail', 'excerpt', 'editor' ),
 	);
