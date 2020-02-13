@@ -40,7 +40,7 @@ function hpna_newsletters() {
 		'query_var'          => true,
 		'capability_type'    => 'post',
 		'rewrite'            => array( 'slug' => 'newsletters', 'with_front' => true ),
-		'has_archive'        => false,
+		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-welcome-widgets-menus',

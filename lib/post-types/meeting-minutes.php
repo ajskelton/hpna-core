@@ -40,7 +40,7 @@ function hpna_meeting_minutes() {
 		'query_var'          => true,
 		'capability_type'    => 'post',
 		'rewrite'            => array( 'slug' => 'minutes', 'with_front' => true ),
-		'has_archive'        => false,
+		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-text-page',
