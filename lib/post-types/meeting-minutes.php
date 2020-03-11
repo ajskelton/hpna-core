@@ -45,7 +45,7 @@ function hpna_meeting_minutes() {
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-text-page',
 		'show_in_rest'       => true,
-		'supports'           => array( 'title', 'revisions', 'thumbnail', 'excerpt', 'editor' ),
+		'supports'           => array( 'title', 'revisions', 'thumbnail', 'excerpt', 'editor', 'author' ),
 	);
 	
 	register_post_type( 'hpna-meeting-minutes', $args );

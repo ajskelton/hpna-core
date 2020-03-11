@@ -45,7 +45,7 @@ function hpna_newsletters() {
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-welcome-widgets-menus',
 		'show_in_rest'       => true,
-		'supports'           => array( 'title', 'revisions', 'excerpt', 'editor' ),
+		'supports'           => array( 'title', 'revisions', 'excerpt', 'editor', 'thumbnail', 'author' ),
 	);
 	
 	register_post_type( 'hpna-newsletters', $args );

@@ -45,7 +45,7 @@ function hpna_financial_reports() {
 		'menu_position'      => 20,
 		'menu_icon'          => 'dashicons-analytics',
 		'show_in_rest'       => true,
-		'supports'           => array( 'title', 'revisions', 'thumbnail', 'excerpt', 'editor' ),
+		'supports'           => array( 'title', 'revisions', 'thumbnail', 'excerpt', 'editor', 'author' ),
 	);
 	
 	register_post_type( 'hpna-money-reports', $args );
